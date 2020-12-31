@@ -1,0 +1,13 @@
+.container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 100px;
+}
+.textarea {
+    margin: 50px;
+    background-color: coral;
+}

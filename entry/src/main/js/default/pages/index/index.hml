@@ -1,0 +1,11 @@
+<div class="container">
+    <textarea onchange="inputDataChange" class="textarea"></textarea>
+    <button onclick="btnAddOnclick" class="textarea">增加</button>
+    <list>
+        <list-item for="{{todolist}}">
+            <text class="todo-title">{{$item}}</text>
+        </list-item>
+    </list>
+    <text>{{count}}
+    </text>
+</div>
